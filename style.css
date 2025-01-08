@@ -1,3 +1,49 @@
+/* Importing fonts */
+/* --------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.outfit-400 {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-700 {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* CSS Reset */
+/* --------- */
+
+* {
+  margin: 0;
+}
+
+/* Variables */
+/* --------- */
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+/* Page styling */
+/* ------------ */
+
+body {
+  font-size: 15px;
+}
+
+/* Attribution */
+/* ----------- */
+
 .attribution {
   font-size: 11px;
   text-align: center;
